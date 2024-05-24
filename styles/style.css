@@ -147,6 +147,10 @@
     justify-content: center;
 }
 
+.recipes__iframe {
+    border: none;
+}
+
 .recipes__videos-caption {
     font-family: "Inter";
     font-style: normal;
