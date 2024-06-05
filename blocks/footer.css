@@ -14,9 +14,6 @@
 .footer__logo {
     display: flex;
     align-items: center;
-}
-
-.footer__logo img {
     margin-right: 10px;
     width: 105px;
     height: auto;
@@ -34,6 +31,7 @@
     gap: 10px;
     flex-direction: column;
     align-items: flex-start;
+    margin: 0;
 }
 
 .footer__list-item {
@@ -51,6 +49,12 @@
     color: white;
     text-decoration: none;
     font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.footer__social-link:hover {
+    color: #6f6f6f;
 }
 
 .footer__copyright {
